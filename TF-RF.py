@@ -1,7 +1,18 @@
-import math 
+# import math
 
-def calc(b, c):
-    result = math.log(2+(b/max(1,c)))
-    return result
+# def calc(b, c):
+#     result = math.log(2+(b/max(1,c)))
+#     print(result)
 
-print(calc(2,1))
+# calc(1,1)
+
+
+x = 1.09861
+
+
+def crossRF(number):
+    return number * x
+
+
+result = list(map(crossRF, (1/8,0,0,0)))
+print(result)
