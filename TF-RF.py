@@ -7,12 +7,13 @@
 # calc(1,1)
 
 
-x = 1.09861
+x = 0.69314
 
 
 def crossRF(number):
     return number * x
 
 
-result = list(map(crossRF, (1/8,0,0,0)))
+result = list(map(crossRF, (1/20,0,1/16,1/8)))
+
 print(result)
